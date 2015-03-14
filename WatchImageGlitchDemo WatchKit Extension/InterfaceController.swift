@@ -17,7 +17,7 @@ class InterfaceController: WKInterfaceController {
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
 
-    image.setImageNamed("image_1")
+    image.setImageNamed("image_01")
   }
 
   override func willActivate() {
