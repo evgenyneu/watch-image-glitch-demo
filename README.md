@@ -15,3 +15,8 @@ First image `image_1@2x.png` is shown.
 
 Second image `image_10@2x.png` is shown.
 
+## Tested in Xcode
+
+* Version 6.2 (6C131e)
+* Version 6.3 (6D532l)
+
