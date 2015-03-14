@@ -10,7 +10,8 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchImageGlitchDemo_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <imageView width="1" height="1" alignment="left" contentMode="center" id="eSP-1X-go0"/>
+                        <label alignment="center" text="Expected: show image &quot;one&quot;  Actual:" numberOfLines="0" id="53Z-po-uXe"/>
+                        <imageView width="1" height="50" alignment="left" contentMode="center" id="eSP-1X-go0"/>
                     </items>
                     <connections>
                         <outlet property="image" destination="eSP-1X-go0" id="qOR-K3-oTz"/>
