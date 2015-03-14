@@ -13,6 +13,14 @@
 		2B61F8411AB4EC1D00D4CCBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B61F8401AB4EC1D00D4CCBC /* Images.xcassets */; };
 		2B61F8441AB4EC1D00D4CCBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B61F8421AB4EC1D00D4CCBC /* LaunchScreen.xib */; };
 		2B61F8501AB4EC1D00D4CCBC /* WatchImageGlitchDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61F84F1AB4EC1D00D4CCBC /* WatchImageGlitchDemoTests.swift */; };
+		2B61F8621AB4EC3400D4CCBC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61F8611AB4EC3400D4CCBC /* InterfaceController.swift */; };
+		2B61F8641AB4EC3400D4CCBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B61F8631AB4EC3400D4CCBC /* Images.xcassets */; };
+		2B61F8681AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 2B61F8671AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit App.app */; };
+		2B61F8701AB4EC3400D4CCBC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B61F86E1AB4EC3400D4CCBC /* Interface.storyboard */; };
+		2B61F8721AB4EC3400D4CCBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B61F8711AB4EC3400D4CCBC /* Images.xcassets */; };
+		2B61F8751AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2B61F85D1AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B61F87F1AB4ED2E00D4CCBC /* image_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B61F87E1AB4ED2E00D4CCBC /* image_1@2x.png */; };
+		2B61F8811AB4ED3400D4CCBC /* image_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B61F8801AB4ED3400D4CCBC /* image_10@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +31,35 @@
 			remoteGlobalIDString = 2B61F8331AB4EC1D00D4CCBC;
 			remoteInfo = WatchImageGlitchDemo;
 		};
+		2B61F8691AB4EC3400D4CCBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B61F82C1AB4EC1D00D4CCBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B61F8661AB4EC3400D4CCBC;
+			remoteInfo = "WatchImageGlitchDemo WatchKit App";
+		};
+		2B61F8731AB4EC3400D4CCBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B61F82C1AB4EC1D00D4CCBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B61F85C1AB4EC3400D4CCBC;
+			remoteInfo = "WatchImageGlitchDemo WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B61F87C1AB4EC3400D4CCBC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2B61F8751AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2B61F8341AB4EC1D00D4CCBC /* WatchImageGlitchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchImageGlitchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +72,16 @@
 		2B61F8491AB4EC1D00D4CCBC /* WatchImageGlitchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchImageGlitchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B61F84E1AB4EC1D00D4CCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B61F84F1AB4EC1D00D4CCBC /* WatchImageGlitchDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchImageGlitchDemoTests.swift; sourceTree = "<group>"; };
+		2B61F85D1AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchImageGlitchDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B61F8601AB4EC3400D4CCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B61F8611AB4EC3400D4CCBC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2B61F8631AB4EC3400D4CCBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B61F8671AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchImageGlitchDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B61F86D1AB4EC3400D4CCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B61F86F1AB4EC3400D4CCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2B61F8711AB4EC3400D4CCBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B61F87E1AB4ED2E00D4CCBC /* image_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_1@2x.png"; sourceTree = "<group>"; };
+		2B61F8801AB4ED3400D4CCBC /* image_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_10@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +99,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B61F85A1AB4EC3400D4CCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +114,8 @@
 			children = (
 				2B61F8361AB4EC1D00D4CCBC /* WatchImageGlitchDemo */,
 				2B61F84C1AB4EC1D00D4CCBC /* WatchImageGlitchDemoTests */,
+				2B61F85E1AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit Extension */,
+				2B61F86B1AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit App */,
 				2B61F8351AB4EC1D00D4CCBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +125,8 @@
 			children = (
 				2B61F8341AB4EC1D00D4CCBC /* WatchImageGlitchDemo.app */,
 				2B61F8491AB4EC1D00D4CCBC /* WatchImageGlitchDemoTests.xctest */,
+				2B61F85D1AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit Extension.appex */,
+				2B61F8671AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +169,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2B61F85E1AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2B61F8611AB4EC3400D4CCBC /* InterfaceController.swift */,
+				2B61F8631AB4EC3400D4CCBC /* Images.xcassets */,
+				2B61F85F1AB4EC3400D4CCBC /* Supporting Files */,
+			);
+			path = "WatchImageGlitchDemo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2B61F85F1AB4EC3400D4CCBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B61F8601AB4EC3400D4CCBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B61F86B1AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2B61F87D1AB4ED0A00D4CCBC /* Images */,
+				2B61F86E1AB4EC3400D4CCBC /* Interface.storyboard */,
+				2B61F8711AB4EC3400D4CCBC /* Images.xcassets */,
+				2B61F86C1AB4EC3400D4CCBC /* Supporting Files */,
+			);
+			path = "WatchImageGlitchDemo WatchKit App";
+			sourceTree = "<group>";
+		};
+		2B61F86C1AB4EC3400D4CCBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B61F86D1AB4EC3400D4CCBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B61F87D1AB4ED0A00D4CCBC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2B61F87E1AB4ED2E00D4CCBC /* image_1@2x.png */,
+				2B61F8801AB4ED3400D4CCBC /* image_10@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +225,12 @@
 				2B61F8301AB4EC1D00D4CCBC /* Sources */,
 				2B61F8311AB4EC1D00D4CCBC /* Frameworks */,
 				2B61F8321AB4EC1D00D4CCBC /* Resources */,
+				2B61F87C1AB4EC3400D4CCBC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2B61F8741AB4EC3400D4CCBC /* PBXTargetDependency */,
 			);
 			name = WatchImageGlitchDemo;
 			productName = WatchImageGlitchDemo;
@@ -150,6 +255,39 @@
 			productReference = 2B61F8491AB4EC1D00D4CCBC /* WatchImageGlitchDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2B61F85C1AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B61F8791AB4EC3400D4CCBC /* Build configuration list for PBXNativeTarget "WatchImageGlitchDemo WatchKit Extension" */;
+			buildPhases = (
+				2B61F8591AB4EC3400D4CCBC /* Sources */,
+				2B61F85A1AB4EC3400D4CCBC /* Frameworks */,
+				2B61F85B1AB4EC3400D4CCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B61F86A1AB4EC3400D4CCBC /* PBXTargetDependency */,
+			);
+			name = "WatchImageGlitchDemo WatchKit Extension";
+			productName = "WatchImageGlitchDemo WatchKit Extension";
+			productReference = 2B61F85D1AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		2B61F8661AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B61F8761AB4EC3400D4CCBC /* Build configuration list for PBXNativeTarget "WatchImageGlitchDemo WatchKit App" */;
+			buildPhases = (
+				2B61F8651AB4EC3400D4CCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchImageGlitchDemo WatchKit App";
+			productName = "WatchImageGlitchDemo WatchKit App";
+			productReference = 2B61F8671AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +303,12 @@
 					2B61F8481AB4EC1D00D4CCBC = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 2B61F8331AB4EC1D00D4CCBC;
+					};
+					2B61F85C1AB4EC3400D4CCBC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2B61F8661AB4EC3400D4CCBC = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +327,8 @@
 			targets = (
 				2B61F8331AB4EC1D00D4CCBC /* WatchImageGlitchDemo */,
 				2B61F8481AB4EC1D00D4CCBC /* WatchImageGlitchDemoTests */,
+				2B61F85C1AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit Extension */,
+				2B61F8661AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +348,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B61F85B1AB4EC3400D4CCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B61F8681AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit App.app in Resources */,
+				2B61F8641AB4EC3400D4CCBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B61F8651AB4EC3400D4CCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B61F87F1AB4ED2E00D4CCBC /* image_1@2x.png in Resources */,
+				2B61F8701AB4EC3400D4CCBC /* Interface.storyboard in Resources */,
+				2B61F8721AB4EC3400D4CCBC /* Images.xcassets in Resources */,
+				2B61F8811AB4ED3400D4CCBC /* image_10@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +391,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B61F8591AB4EC3400D4CCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B61F8621AB4EC3400D4CCBC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +406,16 @@
 			isa = PBXTargetDependency;
 			target = 2B61F8331AB4EC1D00D4CCBC /* WatchImageGlitchDemo */;
 			targetProxy = 2B61F84A1AB4EC1D00D4CCBC /* PBXContainerItemProxy */;
+		};
+		2B61F86A1AB4EC3400D4CCBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B61F8661AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit App */;
+			targetProxy = 2B61F8691AB4EC3400D4CCBC /* PBXContainerItemProxy */;
+		};
+		2B61F8741AB4EC3400D4CCBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B61F85C1AB4EC3400D4CCBC /* WatchImageGlitchDemo WatchKit Extension */;
+			targetProxy = 2B61F8731AB4EC3400D4CCBC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +434,14 @@
 				2B61F8431AB4EC1D00D4CCBC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		2B61F86E1AB4EC3400D4CCBC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B61F86F1AB4EC3400D4CCBC /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -338,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WatchImageGlitchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WatchImageGlitchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +582,60 @@
 			};
 			name = Release;
 		};
+		2B61F8771AB4EC3400D4CCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchImageGlitchDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchImageGlitchDemo WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		2B61F8781AB4EC3400D4CCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchImageGlitchDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchImageGlitchDemo WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		2B61F87A1AB4EC3400D4CCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchImageGlitchDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2B61F87B1AB4EC3400D4CCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchImageGlitchDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +661,22 @@
 			buildConfigurations = (
 				2B61F8571AB4EC1D00D4CCBC /* Debug */,
 				2B61F8581AB4EC1D00D4CCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B61F8761AB4EC3400D4CCBC /* Build configuration list for PBXNativeTarget "WatchImageGlitchDemo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B61F8771AB4EC3400D4CCBC /* Debug */,
+				2B61F8781AB4EC3400D4CCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B61F8791AB4EC3400D4CCBC /* Build configuration list for PBXNativeTarget "WatchImageGlitchDemo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B61F87A1AB4EC3400D4CCBC /* Debug */,
+				2B61F87B1AB4EC3400D4CCBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
